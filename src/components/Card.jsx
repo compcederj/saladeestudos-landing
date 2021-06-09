@@ -7,8 +7,8 @@ function components() {
       <img src={UndrawProgrammer} alt="" />
       <div className="card-body">
         <h5 className="card-title">TECNOLOGIA EM SISTEMAS DE COMPUTAÇÃO</h5>
-        <p className="caption">Uff / ufrj</p>
-        <a href="/comp" className="btn btn-outline-primary btn-lg my-4">
+        <p className="caption">UFF / UFRJ</p>
+        <a href="/degree/comp" className="btn btn-outline-primary btn-lg my-4">
           Acessar
         </a>
       </div>
