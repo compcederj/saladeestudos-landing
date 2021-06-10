@@ -25,32 +25,33 @@ export default function Landing(props) {
       <section className="mt-4 py-5">
         <div className="container">
           <div className="row">
-            <div className="col">
-            <h1 className="">O que é a sala de estudos</h1>
-          <p className="my-4">
-            Este é um projeto totalmente colaborativo desenvolvido e mantido por
-            alunos de computação da UFF, que tem por objetivo centralizar
-            informações sobre os diversos cursos do CEDERJ e facilitar o acesso
-            as aulas e ferramentas de aprendizado. Não recebemos qualquer apoio
-            ou colaboração financeira das instituições, portanto fique a vontade
-            para ajudar o projeto a crescer, contribuindo com código,
-            informações ou doações.
-          </p>
-          <a
-            href="https://trello.com/b/540AkVB1/sala-de-estudos-cederj"
-            target="_blank"
-            className="btn btn-outline-primary my-4 mx-2"
-          >
-            Nosso roadmap
-          </a>
-          <a
+            <div className="col-sm">
+              <h1 className="">O que é a sala de estudos</h1>
+              <p className="my-4">
+                Este é um projeto totalmente colaborativo desenvolvido e mantido
+                por alunos de computação da UFF, que tem por objetivo
+                centralizar informações sobre os diversos cursos do CEDERJ e
+                facilitar o acesso as aulas e ferramentas de aprendizado. Não
+                recebemos qualquer apoio ou colaboração financeira das
+                instituições, portanto fique a vontade para ajudar o projeto a
+                crescer, contribuindo com código, informações ou doações.
+              </p>
+              <a
+                href="https://trello.com/b/540AkVB1/sala-de-estudos-cederj"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary my-4 mx-2"
+              >
+                Nosso roadmap
+              </a>
+              {/* <a
             href="/get-involved"
             className="btn btn-outline-primary my-4 mx-2"
           >
             Como contribuir
-          </a>
+          </a> */}
             </div>
-            <div className="col">
+            <div className="col-sm">
               <img src={StudyImg} alt="" />
             </div>
           </div>

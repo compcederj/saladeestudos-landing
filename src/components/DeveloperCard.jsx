@@ -2,7 +2,7 @@ import React from "react";
 
 function DeveloperCard({ title, description, link, textLink, image }) {
   return (
-    <div className="card">
+    <div className="card my-2">
       <img src={image} alt="" className="card-img-top" />
       <div className="card-body">
         <h3>{title}</h3>
